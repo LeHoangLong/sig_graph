@@ -1,0 +1,52 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.title {
+    color: white;
+}
+
+.log_out {
+    padding: 5px 25px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    flex-grow: 1;
+}
+
+.side_bar {
+    margin: 0px;
+    padding: 0px;
+    border-right: 1px solid black;
+    list-style: none;
+    li {
+        margin: 0px;
+        text-align: left;
+        list-style: none;
+    }
+}
+
+.side_bar_button { 
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    padding: 35px;
+    width: 100%;
+}
+
+.side_bar_button:hover {
+    background-color: var(--primary-color);
+}
+

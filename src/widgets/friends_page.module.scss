@@ -1,0 +1,21 @@
+.friends_list {
+    width: 100%;
+    flex-wrap: wrap;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 0px;
+}
+
+.friend {
+    max-width: 250px;
+    flex-grow: 1;
+    display: flex;
+    padding: 25px;
+    border: solid 1px black;
+}
+
+.profile_picture {
+    height: 50px;
+}

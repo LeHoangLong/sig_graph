@@ -1,0 +1,21 @@
+.users {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px;
+}
+
+.user {
+    box-sizing: border-box;
+    width: 50%;
+    height: 100px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.user:hover {
+    background-color: var(--primary-color);
+}
