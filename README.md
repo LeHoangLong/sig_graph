@@ -181,7 +181,13 @@ The smart contract also support different units, allowing for different types of
 
 In addition to products, activites can also be traced, and measurements from sensors can be attached to a product / process to certify the process meets the required standard.
 
+### Potential shortcomings
+The quantity conservation guarantee can only help against fraud until the last participant of the supply chain. This is because the last participant can reuse the same digital twin for multiple products. Thus, the consumer must all perform the task of transferring the digital twin to their ownership. However, it is unreasonable to expect the average consumer to consistently do this for every product they buy. Thus, the consumer still need to trust their retailer, at least for fast moving goods. For B2B or low-volume, high cost products, it could still be expected that every participants including the end consumer will still perform the asset transfer task.
 
+### Drawbacks
+Since data is stored on multiple nodes, this exposes more vector of attack and data could potentially leak. Thus, for public partitions, it is best not to store sensitive data, and for each assets / measurement / process, a new public key should be used so that even in the case of a leak, the adversary cannot link back the data to the participant's identity.
+
+## References
 [1] M. van Hilten, G. Ongena and P. Ravesteijn (2020) "Blockchain for Organic Food Traceability: Case Studies on Drivers and Challenges" Front. Blockchain [Online] 3:567175. Available https://www.frontiersin.org/articles/10.3389/fbloc.2020.567175/full
 
 [2]  M. M. Aung, and  Y. S. Chang (2014) "Traceability in a food supply chain: safety and quality perspectives" Food Control [Online] vol. 39, pp. 172–184. doi: 10.1016/j.foodcont.2013.11.007
