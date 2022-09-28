@@ -182,14 +182,14 @@ The smart contract also support different units, allowing for different types of
 In addition to products, activites can also be traced, and measurements from sensors can be attached to a product / process to certify the process meets the required standard.
 
 
-[1] Ogena G and Ravesteijn P
+[1] M. van Hilten, G. Ongena and P. Ravesteijn (2020) "Blockchain for Organic Food Traceability: Case Studies on Drivers and Challenges" Front. Blockchain [Online] 3:567175. Available https://www.frontiersin.org/articles/10.3389/fbloc.2020.567175/full
 
-[2] Aung
+[2]  M. M. Aung, and  Y. S. Chang (2014) "Traceability in a food supply chain: safety and quality perspectives" Food Control [Online] vol. 39, pp. 172–184. doi: 10.1016/j.foodcont.2013.11.007
 
-[3]
+[3]  L. Ge, C. Brewster, J. Spek, A. Smeenk, and J. Top, (2017) "Blockchain for Agriculture and Food, Findings From the Pilot Study". Wageningen: Wageningen University & Research. Available https://library.wur.nl/WebQuery/wurpubs/fulltext/426747
 
-[4] T.Moe
+[4] T. Moe (1998) "Perspectives on traceability in food manufacture". Trends Food Sci. Technol. [Online] vol. 9, issue 5, pp. 211–214. doi: 10.1016/S0924-2244(98)00037-5
 
-[6] visa transactions per seconds
+[6] Crypto "A Deep Dive Into Blockchain Scalability" (2020 Jan. 03) [Online]. Available: https://crypto.com/university/blockchain-scalability#:~:text=While%20Visa%20can%20process%20up,capability%20to%20achieve%20mass%20adoption.
 
-[7] https://reader.elsevier.com/reader/sd/pii/S2405959520301909?token=6B1B4F752E8E5D085C33420E30B5AC3C9522490B2376F3913A93A792D9B58148BB96BA9746E9BA10BCF06216C153133E&originRegion=us-east-1&originCreation=20220911062515
+[7] J. Polge, J. Robert and Y.L Traon (2021 Jun.) "Permissioned blockchain frameworks in the industry: A comparison" ICT Express [Online] vol. 7, issue 2, pp. 229-233. doi: 10.1016/S0924-2244(98)00037-5
