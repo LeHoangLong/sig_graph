@@ -184,6 +184,8 @@ In addition to products, activites can also be traced, and measurements from sen
 ### Potential shortcomings
 The quantity conservation guarantee can only help against fraud until the last participant of the supply chain. This is because the last participant can reuse the same digital twin for multiple products. Thus, the consumer must all perform the task of transferring the digital twin to their ownership. However, it is unreasonable to expect the average consumer to consistently do this for every product they buy. Thus, the consumer still need to trust their retailer, at least for fast moving goods. For B2B or low-volume, high cost products, it could still be expected that every participants including the end consumer will still perform the asset transfer task.
 
+Swapping: it was said that swapping was prevented because the quantity was conserved throughout the chain, and as such would provide no financial benefit to the malicious party. However, this is only true under the assumption that all the retailers / consumers make use of the platform, otherwise the malicious party can still leak out to the non-user. Thus, it is very crucial that the framework should be provided for free, because the more popular it is, the more secure it gets. Nonetheless, it still hinders such fraud as the malicious participant will now sell less unqualified products to the user. 
+
 ### Drawbacks
 Since data is stored on multiple nodes, this exposes more vector of attack and data could potentially leak. Thus, for public partitions, it is best not to store sensitive data, and for each assets / measurement / process, a new public key should be used so that even in the case of a leak, the adversary cannot link back the data to the participant's identity.
 
